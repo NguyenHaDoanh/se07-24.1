@@ -9,3 +9,9 @@
         - Cho phép truyền tải dữ liệu một cách an toàn bằng một hệ thống mã hóa phức tạp, và được mở rộng theo thời gian.
         - Công nghệ này được tạo ra để chống lại sự thay đổi dữ liệu trong hệ thống. Thông tin khi được nhập vào trong chuỗi khối blockchain thì sẽ không thể thay đổi và chỉ được bổ sung thêm khi có sự chấp thuận của tất cả mọi người trong hệ thống.
         - Hệ thống đảm bảo sự an toàn rất cao cho các dữ liệu trước các nguy cơ bị đánh cắp.
+
+3. Công nghệ Blockchain
+
+        - Mật mã học: đảm bảo tính minh bạch, toàn vẹn và riêng tư thì công nghệ Blockchain đã sử dụng public key và hàm hash function.
+        - Mạng ngang hàng: Mỗi một nút trong mạng được xem như một client và cũng là server để lưu trữ bản sao ứng dụng.
+        - Lý thuyết trò chơi: Tất cả các nút tham gia vào hệ thống đều phải tuân thủ luật chơi đồng thuận (giao thức PoW, PoS,…) và được thúc đẩy bởi động lực kinh tế.
