@@ -1,5 +1,4 @@
-(https://raw.githubusercontent.com/Azure-Samples/blockchain/master/blockchain-workbench/media/logo_small.png) 
-# Tổng quan về Blockchain 
+# ![Tổng quan về Blockchain](https://raw.githubusercontent.com/Azure-Samples/blockchain/master/blockchain-workbench/media/logo_small.png)
 
 
 1. [Blockchain là gì ?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Blockchain)
