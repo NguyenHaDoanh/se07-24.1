@@ -1,4 +1,4 @@
-Mỗi khối(Block) gồm 3 phần:
+Mỗi khối(Block) được lưu trữ gồm 3 phần:
  - Dữ liệu: Dữ liệu sẽ tùy thuộc vào từng loại Blockchain. Dữ liệu giao dịch gồm: Thông tin người gửi, nhận và số lượng coin được gửi.
  - Hash của khối hiện tại: Hash của khối hiện tại như một đặt điểm để nhận dạng. Nó là duy nhất và không trùng nhau giống như vân tay của chúng ta vậy.
  - Hash của khối trước: Nhờ hash này mà các khối(block) liên kết tạo ra một chuỗi (chain). Tuy nhiên khối đầu tiên sẽ không được liên kết với bất cứ khối nào. Vì nó được tạo ra đầu tiên. Khối đầu tiên này được gọi là Genesis block dịch ra tiếng Việt là “Khối nguyên thủy”
