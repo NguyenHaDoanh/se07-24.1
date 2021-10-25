@@ -18,7 +18,8 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
 |Người mua|Một người có ý định mua tài sản đang được bán bởi người bán. |
 |Thanh tra|Người được người mua chọn làm người kiểm tra tài sản được xem xét mua. |
 |Người thẩm định|Người được người mua chọn làm người thẩm định tài sản được xem xét mua. |
-#Trạng thái
+
+# Trạng thái
 |Tên|Sự miêu tả|
 |---|----------|
 |Tích cực(Active)|Cho biết rằng một tài sản có sẵn để mua.|
