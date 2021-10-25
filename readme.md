@@ -32,4 +32,5 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
 |Người mua được chấp nhận(Buyer Accepted) |Cho biết sự chấp thuận của người mua đối với sự chấp thuận của chủ sở hữu. |
 |Đã chấp nhận(Accepted)|Cho biết rằng cả người mua và người bán đã đồng ý với việc chuyển giao tài sản đang được xem xét. |
 |Đã chấm dứt(Terminated)|Cho biết chủ sở hữu không chấp thuận tiếp tục bán tài sản đang được xem xét. |
-#Chi tiết quy trình làm việc
+# Chi tiết quy trình làm việc
+  _Biểu đồ chuyển đổi trạng thái sau đây trình bày rõ các luồng có thể và các chức năng chuyển đổi khác nhau ở mỗi trạng thái. Mỗi người dùng chỉ được phép thực hiện một số hành động nhất định tùy thuộc vào vai trò ứng dụng. Vai trò phiên bản chỉ ra rằng chỉ người dùng có vai trò ứng dụng được chỉ định cho hợp đồng cụ thể mới có thể thực hiện các hành động trên hợp đồng. 
