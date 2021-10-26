@@ -8,6 +8,11 @@
 5. [Cấu trúc Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Structure/C%E1%BA%A5u%20tr%C3%BAc)
 6. [Công nghệ Blockchain hoạt động như thế nào?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Operation/C%C3%A1ch%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng)
 7. [Tìm hiểu về rest API.](https://www.redhat.com/en/topics/api/what-is-a-rest-api?fbclid=IwAR3LFXGv7ET1Lu9_MdPFU0NxX92vHVXwGm6xNDvXNPOwmImbQeWFX5XUV3o)
+8.  -[Rest API là gì](https://itnavi.com.vn/blog/rest-api-la-gi/)
+9.    ![image](https://user-images.githubusercontent.com/86102398/138792758-5fce033c-f88f-4bf4-ba62-db88c5daab83.png)
+10.    ![image](https://user-images.githubusercontent.com/86102398/138792800-40880189-0bed-4206-9e5e-405a131cd117.png)
+
+
 # Tổng quát(Smart contract)
 Hợp đồng thông minh chuyển tài sản bao gồm kịch bản mua và bán tài sản có giá trị cao, yêu cầu người kiểm tra và thẩm định. Người bán có thể liệt kê tài sản của họ bằng cách khởi tạo hợp đồng thông minh chuyển tài sản. Người mua có thể đưa ra đề nghị bằng cách thực hiện một hành động trên hợp đồng thông minh và các bên khác có thể thực hiện các hành động để kiểm tra hoặc thẩm định tài sản. Khi tài sản được đánh dấu cả đã được kiểm tra và thẩm định, người mua và người bán sẽ xác nhận việc mua bán một lần nữa trước khi hợp đồng được hoàn tất. Tại mỗi thời điểm trong quá trình, tất cả những người tham gia đều có thể nhìn thấy trạng thái của hợp đồng khi nó được cập nhật. 
 ![image](https://user-images.githubusercontent.com/86102398/138625413-45b50ebf-0624-4e74-b9f7-c432f29acedb.png)
