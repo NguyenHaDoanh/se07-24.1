@@ -11,8 +11,8 @@
       ![image](https://user-images.githubusercontent.com/92654803/138794853-808260b1-f07c-4699-b6a3-d7e203af86cc.png)
 7. [Tìm hiểu về rest API.](https://www.redhat.com/en/topics/api/what-is-a-rest-api?fbclid=IwAR3LFXGv7ET1Lu9_MdPFU0NxX92vHVXwGm6xNDvXNPOwmImbQeWFX5XUV3o)
   -[Rest API là gì](https://itnavi.com.vn/blog/rest-api-la-gi/)
-8.    ![image](https://user-images.githubusercontent.com/86102398/138792758-5fce033c-f88f-4bf4-ba62-db88c5daab83.png)
-9.    ![image](https://user-images.githubusercontent.com/86102398/138792800-40880189-0bed-4206-9e5e-405a131cd117.png)
+    ![image](https://user-images.githubusercontent.com/86102398/138792758-5fce033c-f88f-4bf4-ba62-db88c5daab83.png)
+    ![image](https://user-images.githubusercontent.com/86102398/138792800-40880189-0bed-4206-9e5e-405a131cd117.png)
 
 
 # Tổng quát(Smart contract)
