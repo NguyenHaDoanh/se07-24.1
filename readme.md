@@ -6,6 +6,7 @@
 3. [Công nghệ Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/tree/main/Tech)
 4. [Hệ thống Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/System/H%E1%BB%87%20th%E1%BB%91ng)
 5. [Cấu trúc Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Structure/C%E1%BA%A5u%20tr%C3%BAc)
+       ![image](https://user-images.githubusercontent.com/92654803/138794918-23ca0a04-8ee0-4eaa-9325-6b47699783d6.png)
 6. [Công nghệ Blockchain hoạt động như thế nào?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Operation/C%C3%A1ch%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng)
       ![image](https://user-images.githubusercontent.com/92654803/138794853-808260b1-f07c-4699-b6a3-d7e203af86cc.png)
 7. [Tìm hiểu về rest API.](https://www.redhat.com/en/topics/api/what-is-a-rest-api?fbclid=IwAR3LFXGv7ET1Lu9_MdPFU0NxX92vHVXwGm6xNDvXNPOwmImbQeWFX5XUV3o)
