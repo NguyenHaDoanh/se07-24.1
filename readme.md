@@ -1,4 +1,4 @@
-# ![graph](https://user-images.githubusercontent.com/86102398/139563074-cbcb736f-a629-40f8-a951-f95cc5c53527.png) Mục tiêu
+# ![2799200_goals_success_flag_goal_mountain_icon](https://user-images.githubusercontent.com/86102398/139563143-be1f4271-ba59-434f-8ffe-2a494942a3c2.png)Mục tiêu
 # Mục đích
 # Kiến trúc dự án
 # Một số thiết kế giao diện
