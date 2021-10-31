@@ -18,7 +18,7 @@ I. Tìm hiểu về Cryptocurrency
       - B4: Một số giao dịch tạo ra một khối mới ,trước thông tin trên giao dịch ngày giờ và số tiền.
       - B5: Những người tham gia Blockchain đã phân bổ quyền xử lý để xác thực giao dịch ở bước thứ ba sẽ nhận phần thưởng dưới dạng tiền điện tử.
    ![image](https://user-images.githubusercontent.com/86102398/139519769-ac1d8675-6c7d-4be0-826c-9adde2d54c71.png)
-   
+  
     3. Các bước tạo tiền điện tử
     
       - B1: Xác định ý tưởng kinh doanh
