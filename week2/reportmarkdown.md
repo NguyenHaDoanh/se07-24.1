@@ -42,3 +42,13 @@ I. Tìm hiểu về Cryptocurrency
       - B7: Thiết kế giao diện quản trị và người dùng
       - B8: Làm cho tiền ảo vừa tạo hợp pháp
       - B9: Quảng bá dự án, coin
+    
+    4. So sánh coin v token
+    
+        *Coin:
+            + Dựa trên blockchain của riêng nó
+            + Phương tiện cho thanh toán kỹ thuật số
+          
+        *Token:
+            + Dựa trên blockchain hiện có
+            + Chủ yếu được sử dụng cho các hợp đồng thông minh
