@@ -1,3 +1,8 @@
+# ![graph](https://user-images.githubusercontent.com/86102398/139563074-cbcb736f-a629-40f8-a951-f95cc5c53527.png) Mục tiêu
+# Mục đích
+# Kiến trúc dự án
+# Một số thiết kế giao diện
+
 # ![](https://user-images.githubusercontent.com/92350565/138580656-744676a8-a68d-40c4-aae6-823a798fcc3b.PNG) Tổng quan về Blockchain
 
 
