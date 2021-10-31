@@ -8,6 +8,7 @@ I. Tìm hiểu về Cryptocurrency
         + Một loại tiền ảo
         + Được bảo mật bằng mật mã
         + Phi tập trung và minh bạch
+   ![image](https://user-images.githubusercontent.com/92654803/139567282-06f2df82-9b9d-44b9-92cd-9037228057ee.png)
         
     2. Nguyên lý hoạt động
     
