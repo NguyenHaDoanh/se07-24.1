@@ -44,8 +44,7 @@ I. Tìm hiểu về Cryptocurrency
       - B8: Làm cho tiền ảo vừa tạo hợp pháp
       - B9: Quảng bá dự án, coin
     
-    4. So sánh coin v token
-    
+    4. So sánh coin vs token
         *Coin:
             + Dựa trên blockchain của riêng nó
             + Phương tiện cho thanh toán kỹ thuật số
