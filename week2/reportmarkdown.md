@@ -52,3 +52,4 @@ I. Tìm hiểu về Cryptocurrency
         *Token:
             + Dựa trên blockchain hiện có
             + Chủ yếu được sử dụng cho các hợp đồng thông minh
+   ![image](https://user-images.githubusercontent.com/92654803/139518635-6d49e75c-5afe-401a-9a94-4622bb175cb1.png)
