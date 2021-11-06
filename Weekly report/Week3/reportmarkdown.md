@@ -36,11 +36,11 @@ I. Tìm hiểu về RESTFUL API
     ->REST chú trọng vào tài nguyên của hệ thống
     
   5.Các tiêu chí đánh giá 1 API RESTFUL:
-  Một kiến ​​trúc máy khách-máy chủ được tạo thành từ máy khách, máy chủ và tài nguyên, với các yêu cầu được quản lý thông qua HTTP.
-Giao tiếp máy khách-máy chủ không trạng thái , có nghĩa là không có thông tin máy khách nào được lưu trữ giữa các yêu cầu nhận và mỗi yêu cầu là riêng biệt và không được kết nối.
-Dữ liệu có thể lưu vào bộ nhớ cache giúp hợp lý hóa các tương tác giữa máy khách và máy chủ.
-Một giao diện thống nhất giữa các thành phần để thông tin được truyền ở dạng chuẩn. Điều này yêu cầu rằng:
-các tài nguyên được yêu cầu có thể nhận dạng được và tách biệt với các đại diện được gửi đến khách hàng.
-các tài nguyên có thể được thao tác bởi máy khách thông qua biểu diễn mà họ nhận được vì biểu diễn chứa đủ thông tin để làm như vậy.
-các thông điệp tự mô tả được trả lại cho khách hàng có đủ thông tin để mô tả cách thức khách hàng xử lý nó.
-có sẵn siêu văn bản / siêu phương tiện, có nghĩa là sau khi truy cập tài nguyên, khách hàng sẽ có thể sử dụng siêu liên kết để tìm tất cả các hành động hiện có khác mà họ có thể thực hiện.
+  -Một kiến ​​trúc máy khách-máy chủ được tạo thành từ máy khách, máy chủ và tài nguyên, với các yêu cầu được quản lý thông qua HTTP.
+  -Giao tiếp máy khách-máy chủ không trạng thái , có nghĩa là không có thông tin máy khách nào được lưu trữ giữa các yêu cầu nhận và mỗi yêu cầu là riêng biệt và không      được kết nối.
+  -Dữ liệu có thể lưu vào bộ nhớ cache giúp hợp lý hóa các tương tác giữa máy khách và máy chủ.
+  -Một giao diện thống nhất giữa các thành phần để thông tin được truyền ở dạng chuẩn. Điều này yêu cầu rằng:
+    +các tài nguyên được yêu cầu có thể nhận dạng được và tách biệt với các đại diện được gửi đến khách hàng.
+    +các tài nguyên có thể được thao tác bởi máy khách thông qua biểu diễn mà họ nhận được vì biểu diễn chứa đủ thông tin để làm như vậy.
+    +các thông điệp tự mô tả được trả lại cho khách hàng có đủ thông tin để mô tả cách thức khách hàng xử lý nó.
+    +có sẵn siêu văn bản / siêu phương tiện, có nghĩa là sau khi truy cập tài nguyên, khách hàng sẽ có thể sử dụng siêu liên kết để tìm tất cả các hành động hiện có khác     mà họ có thể thực hiện.
