@@ -51,3 +51,6 @@ I. Tìm hiểu về RESTFUL API
     +các thông điệp tự mô tả được trả lại cho khách hàng có đủ thông tin để mô tả cách thức khách hàng xử lý nó.
     
     +có sẵn siêu văn bản / siêu phương tiện, có nghĩa là sau khi truy cập tài nguyên, khách hàng sẽ có thể sử dụng siêu liên kết để tìm tất cả các hành động hiện có khác     mà họ có thể thực hiện.
+   Mặc dù REST API có những tiêu chí này để tuân theo, nó vẫn được coi là dễ sử dụng hơn so với một giao thức được quy định như SOAP (Giao thức truy cập đối tượng đơn giản), có các yêu cầu cụ thể như nhắn tin XML và tuân thủ giao dịch và bảo mật tích hợp sẵn. chậm hơn và nặng hơn.
+
+Ngược lại, REST là một tập hợp các nguyên tắc có thể được triển khai khi cần thiết, làm cho các API REST nhanh hơn và nhẹ hơn, với khả năng mở rộng tăng lên — hoàn hảo cho Internet of Things (IoT) và phát triển ứng dụng di động .
