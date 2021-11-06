@@ -12,20 +12,23 @@ I. Tìm hiểu về RESTFUL API
     
     
    
-  2. Các giao thức hoạt động 
+  2. Các phương thức hoạt động 
   
-   - REST hoạt động chủ yếu dựa vào giao thức HTTP. Các hoạt động cơ bản nêu trên sẽ sử dụng những phương thức HTTP riêng.
-      ->GET (SELECT): Trả về một Resource hoặc một danh sách Resource.
-      ->POST (CREATE): Tạo mới một Resource.
-      ->PUT (UPDATE): Cập nhật thông tin cho Resource.
-      ->DELETE (DELETE): Xoá một Resource.
-   - Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa
+   - REST gửi một request HTTP method như GET, POST, PUT, DELETE,... đến một URI để xử lý dữ liệu.
+  
+  |METHOD|ACTION|
+  |---|-------|
+  |POST|(CREATE) Tạo mới một Resource.|
+  |GET|(READ) Trả về một Resource hoặc một danh sách Resource.|
+  |PUT|(UPDATE) Cập nhật, thay thế thông tin cho Resource.|
+  |DELETE|(DELETE) Xoá một Resource.|
+  - Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa. Mỗi phương thức trên phải được API call thông qua để gửi chỉ thị cho server phải làm gì.
 ![image](https://user-images.githubusercontent.com/92654803/140596554-909907bc-103c-4ba7-9bd9-bfcd2f58f8c2.png)
 
     
   3. Sơ đồ hoạt động
   
-![image](https://user-images.githubusercontent.com/92654803/140596543-e6661bbd-6a0b-447b-89fb-d16d3e23c5a0.png)
+ ![image](https://user-images.githubusercontent.com/92654803/140596543-e6661bbd-6a0b-447b-89fb-d16d3e23c5a0.png)
 
   4. Ưu điểm của RESTFUL
   
