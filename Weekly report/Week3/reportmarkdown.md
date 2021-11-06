@@ -9,7 +9,7 @@ I. Tìm hiểu về RESTFUL API
     - REST (REpresentational State Transfer) là một dạng chuyển đổi cấu trúc dữ liệu, một kiểu kiến trúc để viết API. Nó sử dụng phương thức HTTP đơn giản để tạo cho giao tiếp giữa các máy. Vì vậy, thay vì sử dụng một URL cho việc xử lý một số thông tin người dùng, REST gửi một yêu cầu HTTP như GET, POST, DELETE, vv đến một URL để xử lý dữ liệu.
     
    
-  2. Giao thức hoạt động của HTTP
+  2. Các giao thức hoạt động 
 
     REST hoạt động chủ yếu dựa vào giao thức HTTP. Các hoạt động cơ bản nêu trên sẽ sử dụng những phương thức HTTP riêng.
       ->GET (SELECT): Trả về một Resource hoặc một danh sách Resource.
@@ -17,3 +17,5 @@ I. Tìm hiểu về RESTFUL API
       ->PUT (UPDATE): Cập nhật thông tin cho Resource.
       ->DELETE (DELETE): Xoá một Resource.
     Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa
+    
+  3. Sơ đồ hoạt động
