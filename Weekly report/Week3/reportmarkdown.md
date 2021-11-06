@@ -13,13 +13,13 @@ I. Tìm hiểu về RESTFUL API
     
    
   2. Các giao thức hoạt động 
-
-    REST hoạt động chủ yếu dựa vào giao thức HTTP. Các hoạt động cơ bản nêu trên sẽ sử dụng những phương thức HTTP riêng.
+  
+   - REST hoạt động chủ yếu dựa vào giao thức HTTP. Các hoạt động cơ bản nêu trên sẽ sử dụng những phương thức HTTP riêng.
       ->GET (SELECT): Trả về một Resource hoặc một danh sách Resource.
       ->POST (CREATE): Tạo mới một Resource.
       ->PUT (UPDATE): Cập nhật thông tin cho Resource.
       ->DELETE (DELETE): Xoá một Resource.
-    Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa
+   - Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa
 ![image](https://user-images.githubusercontent.com/92654803/140596554-909907bc-103c-4ba7-9bd9-bfcd2f58f8c2.png)
 
     
@@ -29,28 +29,25 @@ I. Tìm hiểu về RESTFUL API
 
   4. Ưu điểm của RESTFUL
   
-    ->Giúp cho ứng dụng rõ ràng hơn
-    ->REST URL đại diện cho resource chứ không phải hành động
-    ->Dữ liệu được trả về với nhiều định dạng khác nhau như: xml, html, json….
-    ->Code đơn giản và ngắn gọn
-    ->REST chú trọng vào tài nguyên của hệ thống
+   - Giúp cho ứng dụng rõ ràng hơn
+   - REST URL đại diện cho resource chứ không phải hành động
+   - Dữ liệu được trả về với nhiều định dạng khác nhau như: xml, html, json….
+   - Code đơn giản và ngắn gọn
+   - REST chú trọng vào tài nguyên của hệ thống
     
-  5.Các tiêu chí đánh giá 1 API RESTFUL:
-  -Một kiến ​​trúc máy khách-máy chủ được tạo thành từ máy khách, máy chủ và tài nguyên, với các yêu cầu được quản lý thông qua HTTP.
-  
-  -Giao tiếp máy khách-máy chủ không trạng thái , có nghĩa là không có thông tin máy khách nào được lưu trữ giữa các yêu cầu nhận và mỗi yêu cầu là riêng biệt và không      được kết nối.
-  
-  -Dữ liệu có thể lưu vào bộ nhớ cache giúp hợp lý hóa các tương tác giữa máy khách và máy chủ.
-  
-  -Một giao diện thống nhất giữa các thành phần để thông tin được truyền ở dạng chuẩn. Điều này yêu cầu rằng:
-  
-    +các tài nguyên được yêu cầu có thể nhận dạng được và tách biệt với các đại diện được gửi đến khách hàng.
     
-    +các tài nguyên có thể được thao tác bởi máy khách thông qua biểu diễn mà họ nhận được vì biểu diễn chứa đủ thông tin để làm như vậy.
-    
-    +các thông điệp tự mô tả được trả lại cho khách hàng có đủ thông tin để mô tả cách thức khách hàng xử lý nó.
-    
-    +có sẵn siêu văn bản / siêu phương tiện, có nghĩa là sau khi truy cập tài nguyên, khách hàng sẽ có thể sử dụng siêu liên kết để tìm tất cả các hành động hiện có khác     mà họ có thể thực hiện.
-   Mặc dù REST API có những tiêu chí này để tuân theo, nó vẫn được coi là dễ sử dụng hơn so với một giao thức được quy định như SOAP (Giao thức truy cập đối tượng đơn giản), có các yêu cầu cụ thể như nhắn tin XML và tuân thủ giao dịch và bảo mật tích hợp sẵn. chậm hơn và nặng hơn.
+  5. Các tiêu chí đánh giá 1 API RESTFUL:
+   - Một kiến trúc máy khách-máy chủ được tạo thành từ máy khách, máy chủ và tài nguyên, với các yêu cầu được quản lý thông qua HTTP.
+  
+   - Giao tiếp máy khách-máy chủ không trạng thái , có nghĩa là không có thông tin máy khách nào được lưu trữ giữa các yêu cầu nhận và mỗi yêu cầu là riêng biệt và không      được kết nối.
+  
+   - Dữ liệu có thể lưu vào bộ nhớ cache giúp hợp lý hóa các tương tác giữa máy khách và máy chủ.
+  
+   - Một giao diện thống nhất giữa các thành phần để thông tin được truyền ở dạng chuẩn. Điều này yêu cầu rằng:
+      +các tài nguyên được yêu cầu có thể nhận dạng được và tách biệt với các đại diện được gửi đến khách hàng.
+      +các tài nguyên có thể được thao tác bởi máy khách thông qua biểu diễn mà họ nhận được vì biểu diễn chứa đủ thông tin để làm như vậy.
+      +các thông điệp tự mô tả được trả lại cho khách hàng có đủ thông tin để mô tả cách thức khách hàng xử lý nó.
+      +có sẵn siêu văn bản / siêu phương tiện, có nghĩa là sau khi truy cập tài nguyên, khách hàng sẽ có thể sử dụng siêu liên kết để tìm tất cả các hành động hiện có khác     mà họ có thể thực hiện.
+   - Mặc dù REST API có những tiêu chí này để tuân theo, nó vẫn được coi là dễ sử dụng hơn so với một giao thức được quy định như SOAP (Giao thức truy cập đối tượng đơn giản), có các yêu cầu cụ thể như nhắn tin XML và tuân thủ giao dịch và bảo mật tích hợp sẵn. chậm hơn và nặng hơn.
 
-Ngược lại, REST là một tập hợp các nguyên tắc có thể được triển khai khi cần thiết, làm cho các API REST nhanh hơn và nhẹ hơn, với khả năng mở rộng tăng lên — hoàn hảo cho Internet of Things (IoT) và phát triển ứng dụng di động .
+   - Ngược lại, REST là một tập hợp các nguyên tắc có thể được triển khai khi cần thiết, làm cho các API REST nhanh hơn và nhẹ hơn, với khả năng mở rộng tăng lên — hoàn hảo cho Internet of Things (IoT) và phát triển ứng dụng di động .
