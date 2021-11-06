@@ -22,4 +22,5 @@ I. Tìm hiểu về RESTFUL API
 
     
   3. Sơ đồ hoạt động
+  4. 
 ![image](https://user-images.githubusercontent.com/92654803/140596543-e6661bbd-6a0b-447b-89fb-d16d3e23c5a0.png)
