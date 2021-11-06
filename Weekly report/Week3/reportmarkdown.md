@@ -22,7 +22,7 @@ I. Tìm hiểu về RESTFUL API
   |GET|(READ) Trả về một Resource hoặc một danh sách Resource.|
   |PUT|(UPDATE) Cập nhật, thay thế thông tin cho Resource.|
   |DELETE|(DELETE) Xoá một Resource.|
-  - Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa. Mỗi phương thức trên phải được API call thông qua để gửi chỉ thị cho server phải làm gì.
+  - Những phương thức hay hoạt động này thường được gọi là CRUD tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa. Mỗi phương thức trên phải được API call thông qua để gửi chỉ thị cho server phải làm gì. Đại đa số web API chỉ cho phép GET request lấy dữ liệu khỏi một externer server. Authencation không bắt buộc, nhưng nên có khi ta cho phép các lệnh khá “nguy hiểm” như PUT hay DELETE.
 ![image](https://user-images.githubusercontent.com/92654803/140596554-909907bc-103c-4ba7-9bd9-bfcd2f58f8c2.png)
 
     
