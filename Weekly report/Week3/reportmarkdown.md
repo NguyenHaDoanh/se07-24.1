@@ -24,3 +24,11 @@ I. Tìm hiểu về RESTFUL API
   3. Sơ đồ hoạt động
   
 ![image](https://user-images.githubusercontent.com/92654803/140596543-e6661bbd-6a0b-447b-89fb-d16d3e23c5a0.png)
+
+  4. Ưu điểm của RESTFUL
+  
+    ->Giúp cho ứng dụng rõ ràng hơn
+    ->REST URL đại diện cho resource chứ không phải hành động
+    ->Dữ liệu được trả về với nhiều định dạng khác nhau như: xml, html, json….
+    ->Code đơn giản và ngắn gọn
+    ->REST chú trọng vào tài nguyên của hệ thống
