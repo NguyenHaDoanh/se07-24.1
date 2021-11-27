@@ -3,7 +3,7 @@ App = {
     loading: false,
     contracts: {},
 
-    // Function when the website loads
+    // Chức năng khi trang web tải
     load: async () => {
 
         console.log("App loading...");
@@ -14,7 +14,7 @@ App = {
 
     },
 
-    // Function to load Web3.js, framework that will works with MetaMask to create the Ethereum Blockchain Network
+    // Chức năng tải Web3.js, framework sẽ hoạt động với MetaMask để tạo Ethereum Blockchain Network
     loadWeb3: async () => {
 
         if(typeof web3 !== 'undefined') {
@@ -24,31 +24,31 @@ App = {
             windows.alert("Please connect to Metamask.");
         }
 
-        // Modern browsers
+        // trình duyệt hiện đại
         if(window.ethereum) {
             window.web3 = new Web3(ethereum);
 
             try {
-                // Request account access
+                // Yêu cầu quyền truy cập tài khoản
                 await ethereum.enable();
 
-                // Account now exposed
+                // Tài khoản hiện đã được công khai
                 web3.eth.sendTransaction({ /* ... */ });
             } catch(error) {
-                // User denied the account access
+                // Người dùng từ chối quyền truy cập tài khoản
             }
         }
 
-        // Legacy browsers
+        // Trình duyệt kế thừa
         else if(window.web3) {
             App.web3Provider = web3.currentProvider;
             window.web3 = new Web3(web3.currentProvider);
 
-            // Account now exposed
+            // Tài khoản hiện đã được công khai
             web3.eth.sendTransaction({ /* ... */ });
         }
 
-        // Not an ETH Browser
+        // Không phải là một ETH Browser
         else {
             console.log("Non ETH Browser detected.")
         }
@@ -57,19 +57,19 @@ App = {
 
     loadAccount: async () => {
 
-        // The first account
+        // Tài khoản thứ nhất
         App.account = web3.eth.accounts[0];
 
     },
 
     loadContract: async () => {
 
-        // The smart contracts
+        // Hợp đồng thôgn minh
         const todoList = await $.getJSON('TodoList.json');
         App.contracts.TodoList = TruffleContract(todoList);
         App.contracts.TodoList.setProvider(App.web3Provider);
 
-        // Take values from blockchain
+        // Lấy các giá trị từ blockchain
         App.todoList = await App.contracts.TodoList.deployed();
 
     },
@@ -80,36 +80,36 @@ App = {
             return;
         }
 
-        // Set loading state to true
+        // Đặt trạng thái tải thành true
         App.setLoading(true);
 
-        // Render account
+        // Kết xuất tài khoản
         $('#account').html(App.account);
 
-        // Render tasks
+        // Kết xuất công việc
         await App.renderTasks();
 
-        // Updating loading state to false
+        // Cập nhật trạng thái tải thành false
         App.setLoading(false);
 
     },
 
     renderTasks: async () => {
 
-        // Load the task from the blockchain
+        // Load task từ blockchain
         const taskCount = await App.todoList.taskCount();
         const $taskTemplate = $('.taskTemplate');
 
-        // Render each task as a template
+        // Kết xuất từng task dưới dạng mẫu
         for(var i = 1; i <= taskCount; i++) {
 
-            // Fetch task from the blockchain
+            // Nạp tác vụ từ chuỗi khối
             const task = await App.todoList.tasks(i);
             const taskId = task[0].toNumber();
             const taskContent = task[1];
             const taskCompleted = task[2];
 
-            // Create the HTML template for the task
+            // Tạo mẫu HTML cho task
             const $newTaskTemplate = $taskTemplate.clone();
             $newTaskTemplate.find('.content').html(taskContent);
             $newTaskTemplate.find('input')
@@ -117,16 +117,16 @@ App = {
                             .prop('checked', taskCompleted)
                             .on('click', App.toggleCompleted);
 
-            // Format the tasks in the correct order
+            // Định dạng các task theo đúng thứ tự
             if(taskCompleted) {
                 // Assign the id #completedTaskList to the template
                 $('#completedTaskList').append($newTaskTemplate);
             } else {
-                // Assign the #taskList id to the template
+                // gán #taskList id đến biểu mẫu
                 $('#taskList').append($newTaskTemplate);
             }
 
-            // Show the task
+            // Show task
             $newTaskTemplate.show();
 
         }
@@ -134,32 +134,32 @@ App = {
 
     createTask: async () => {
 
-        // Set loading state to true
+        // Đặt trạng thái tải thành true
         App.setLoading(true);
 
-        // Take the form's value
+        // Lấy giá trị của biểu mẫu
         const content = $('#newTask').val();
 
-        // Create the task from the Smart Contract
+        // Tạo task từ Hợp đồng thông minh(Smart Contract)
         await App.todoList.createTask(content);
 
-        // Reload the page
+        // Tải lại trang
         window.location.reload();
 
     },
 
     toggleCompleted: async(e) => {
 
-        // Set loading state to true
+        // Đặt trạng thái tải thành true
         App.setLoading(true);
 
-        // Take the checkbox item id
+        // Lấy id từ mục checkbox
         const taskId = e.target.name;
 
-        // Edit the task
+        // Chỉnh sửa task
         await App.todoList.toggleCompleted(taskId);
 
-        // Reload the page
+        // Tải lại tranng
         window.location.reload();
 
     },
