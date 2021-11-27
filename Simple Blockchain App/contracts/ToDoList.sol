@@ -1,29 +1,32 @@
-pragma solidity ^0.5.0;
+// pragma solidity ^0.5.0;
 
 contract TodoList {
 
-    // Uint => số nguyên >= 0
+    // Uint => số nguyên >= 0  //in ko dau
     // Khóa công khai(public key), để sử dụng biến giống như một hàm (ex: this.taskCount() = 0)
 
     uint public taskCount = 0;
     
-    struct Task {
+    struct Task { ////biến struct cho phép chúng ta xác định nhiều cấu trúc data hơn.
         uint id;
-        string content;
-        bool completed;
+        string content; ////đây là văn bản của nhiệm vụ trong danh sách việc cần làm được chứa trong một chuỗi.
+        bool completed;// Nếu đúng như vậy--> true, 
+                        //nhiệm vụ sẽ được "hoàn thành" hoặc sẽ bị đánh dấu khỏi danh sách việc cần làm.
     }
 
-    // Sắp xếp mảng, Task là một uint
+    // Ánh xạ)) Sắp xếp mảng, Task là một uint 
     mapping(uint => Task) public tasks;
 
     // Định nghĩa event TaskCreated 
+    // Xác định sự kiện TaskCreate taskcreated : nhiem v u tao ra
     event TaskCreated(
         uint id, 
         string content,
         bool completed
     );
+// nó lưu trữ các đối số được truyền vào nhật ký giao dịch
 
-    // Định nghĩa event TaskCompleted
+    // Define the TaskCompleted event xác định
     event TaskCompleted(
         uint id,
         bool completed
@@ -33,7 +36,7 @@ contract TodoList {
     constructor() public {
 
         // Tạo một tác vụ mặc định cho lần biên dịch đầu tiên
-        createTask("Default task.");
+        createTask("Default task.");//Default task : nhiệm vụ mặc định
         
     }
 
@@ -60,7 +63,7 @@ contract TodoList {
         // Gán True/False cho task
         _task.completed = !_task.completed;
 
-        // Gán cho item của array một task vừa được chỉnh sửa
+        // Gán cho item của array một task vừa được chỉnh sửa (chỉ mục mới)
         tasks[_id] = _task;
 
         // Emitting TaskCompleted
