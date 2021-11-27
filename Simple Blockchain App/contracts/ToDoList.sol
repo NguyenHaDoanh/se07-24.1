@@ -2,8 +2,8 @@ pragma solidity ^0.5.0;
 
 contract TodoList {
 
-    // Uint => unsigned int
-    // public key, to use the variable like a function (ex: this.taskCount() = 0)
+    // Uint => số nguyên >= 0
+    // Khóa công khai(public key), để sử dụng biến giống như một hàm (ex: this.taskCount() = 0)
 
     uint public taskCount = 0;
     
@@ -13,17 +13,17 @@ contract TodoList {
         bool completed;
     }
 
-    // Sort of array, the content of tasks (the TASK is an uint)
+    // Sắp xếp mảng, Task là một uint
     mapping(uint => Task) public tasks;
 
-    // Define the TaskCreated event
+    // Định nghĩa event TaskCreated 
     event TaskCreated(
         uint id, 
         string content,
         bool completed
     );
 
-    // Define the TaskCompleted event
+    // Định nghĩa event TaskCompleted
     event TaskCompleted(
         uint id,
         bool completed
