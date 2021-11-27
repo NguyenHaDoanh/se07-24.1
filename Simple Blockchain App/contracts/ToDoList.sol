@@ -29,21 +29,21 @@ contract TodoList {
         bool completed
     );
 
-    // Function that runs the first time that the script start, as a configurator
+    // Hàm chạy lần đầu khi tập lệnh(script) bắt đầu, như là một configurator
     constructor() public {
 
-        // Create an default task for the first compile
+        // Tạo một tác vụ mặc định cho lần biên dịch đầu tiên
         createTask("Default task.");
         
     }
 
-    // Function to add in the "tasks" array a new task
+    // Hàm để thêm vào mảng "tasks" một nhiệm vụ mới
     function createTask(string memory _content) public {
 
-        // Increment taskCount + 1 to assign an ID
+        // tăng taskCount +1 để chỉ định 1 id
         taskCount ++;
 
-        // Adding to the task array a new task
+        // thêm vào mảng task 1 task mới
         tasks[taskCount] = Task(taskCount, _content, false);
 
         // Emit TaskCreated event
@@ -51,16 +51,16 @@ contract TodoList {
 
     }
 
-    // Function to complete tasks and target as completed: true
+    // Chức năng hoàn thành nhiệm vụ và hoàn thành mục tiêu: true
     function toggleCompleted(uint _id) public {
 
-        // Assign at _task the value of tasks[_id]
+        // Gán _task giá trị của tasks[_id]
         Task memory _task = tasks[_id];
 
-        // Assign true/false to the task
+        // Gán True/False cho task
         _task.completed = !_task.completed;
 
-        // Assign to the array item the new edited task
+        // Gán cho item của array một task vừa được chỉnh sửa
         tasks[_id] = _task;
 
         // Emitting TaskCompleted
