@@ -14,10 +14,11 @@ Thực hành học code Solidity
 
 
  https://github.com/NguyenHaDoanh/se07-24.1/tree/main/contract/firstcontracbasicrules
-  +Công cụ chuyển đổi Wei / Gwei / Eth
+ 
+  - [Công cụ chuyển đổi Wei / Gwei / Eth](https://eth-converter.com)
   
-  +chuỗi liên kết[https://docs.chain.link/]
+  - [Chuỗi liên kết](https://docs.chain.link/)
   
-  +link token hợp đồng[https://docs.chain.link/docs/link-token-contracts/]
+  - [Link token hợp đồng](https://docs.chain.link/docs/link-token-contracts/)
   
-  +sử dụng nguồn cấp dữ liệu [https://docs.chain.link/docs/get-the-latest-price/]
+  - [Sử dụng nguồn cấp dữ liệu] (https://docs.chain.link/docs/get-the-latest-price)
