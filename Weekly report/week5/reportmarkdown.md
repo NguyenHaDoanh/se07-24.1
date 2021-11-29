@@ -17,3 +17,4 @@
     - Tất cả mã và dữ liệu trong danh sách việc cần làm không nằm trên một máy chủ tập trung. Thay vào đó, nó được phân phối trên blockchain. Tất cả mã và dữ liệu được chia sẻ và không thể thay đổi trên blockchain,ứng dụng phía máy khách sẽ nói chuyện trực tiếp với blockchain.
     - Kết nối với mạng blockchain bằng tài khoản cá nhân của mình bằng ví Ethereum Metamask để tương tác với ứng dụng danh sách việc cần làm
    
+   - [Node.js-API RESFUL](https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm?fbclid=IwAR0x4MsCO3E-jK0a9VQW0KAJ0enUedg7xydyp0r23h02esbC5jr29_9BMQQ)
