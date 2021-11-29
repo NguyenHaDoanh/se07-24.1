@@ -21,4 +21,4 @@ Thực hành học code Solidity
   
   - [Link token hợp đồng](https://docs.chain.link/docs/link-token-contracts/)
   
-  - [Sử dụng nguồn cấp dữ liệu] (https://docs.chain.link/docs/get-the-latest-price)
+  - [Sử dụng nguồn cấp dữ liệu](https://docs.chain.link/docs/get-the-latest-price)
