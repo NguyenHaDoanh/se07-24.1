@@ -1,0 +1,42 @@
+pragma solidity > 0.7.0 < 0.9.0;
+contract coin {
+    address public minter;
+    mapping (address  => uint ) public balance;  //balance :can bang 
+    event Sent(address from ,address to,uint amount);
+    
+    modifier onlyMinter {  //don gian la tao ra 1 cau truc de co the    //xoa dau ngoac don de ko co dau vao
+        require(msg.sender == minter); //require: ham yeu cau,kiem tra các biến state hđồng,trả về value từ các cuộc gọi đến các hợp đồng bên ngoài
+        _;
+    }
+    //modifier checkamount {
+
+    //}
+
+    constructor(){
+        minter = msg.sender ;  //sender : nguoi gui,co the la ng tao
+    }
+    function mint(address receiver,uint amount) public onlyMinter{ //tao ra 1 luong token can tao ra 2 yeu cau
+        //onlyminter : no se su dung dc chuc nang nay
+
+
+        //ng tao ra luong coin la ng chay smartcontract
+        require(amount <= 1e60);//luong coin thap hon 1e60
+        balance[receiver] += amount ;  //receiver : nguoi nhan
+
+    }
+    function send(address receiver ,uint amount) public {
+        require(amount <=  balance[msg.sender], "khong du ma de chuyen tien");
+        balance[msg.sender] -= amount;
+        balance[receiver] += amount ; 
+        emit Sent(msg.sender,receiver ,amount);
+    }
+    //not compatiable : kong tuong thich 
+    // opetator : nha dieu hanh
+    //sent : da gui 
+    //transaction :giao dich , reverted : hoan nguyen;initial state : hoan nguyen trang thai ban dau
+    //chi cho the tao1 contrac cho 1  amount da dc tao luc dau ,khi dung contract khac se bao loi
+
+
+
+
+}
