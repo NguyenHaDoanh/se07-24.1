@@ -1,1 +1,121 @@
+  Ico: đợt phát hành coin đầu tiên
+  Provider: các nhà cung cấp
+  -Transtaction: giao dịch
+  -Memory,storege: bộ nhớ 
+  -Synatures: khớp xương(decode:đã giải mã): public key , private key
+  -Data types : kiểu dữ liệu
+  (học về web3 miners,wallets : web3 , thợ đào coin, ví)
+  -Bit,byte,hex(16 ký tự 0-9 a-x)
+  -Metamask
+  -Trees,merkele Tree
+  -truffle,,…..                 react: liên hệ
+  Node js : liên két giữa smartcontrac và website (comunication : liên lạc)
+  Market place : nơi tạo ra giao dịch
+  Deploy: triển khai
+  1 sản phẩm có bản dùng để donnate 
+  Exchange-traded fund: ETF quỹ giao dịch hối đoái(quỹ đầu tư và sản phẩm giao dịch trao đổi
+
+
+
+
+
+
+  Dev smartcontract
+  Languages : C/C++, Javascrips,Go,Rust,Python
+  Math,Basic about blockchain :Hash function,signature,Cơ chế đồng thuận(Pow,pos,DPos)
+  Transaction , & UTXO model
+  Sychronization Processs& pruning
+  Wallet ,SPV
+  Fork,Fork Types
+  Fees
+  Lighining net work
+  Crosss –Chain Swap
+  Taproot ,Graftroot,Mast,…
+  •	Smart contrac :
+  •	Solidity,viper,FE,Rust,FronEnd(HTML,CSS,JS,…)
+  •	React
+  •	Node js\\
+  Framwork :NPm/Node js,Truffle: Ganache
+
+
+
+
+
+
+
+  Solana
+  Thông tin cơ bản của Solana
+  •	Ticker: SOL
+  •	Loại Token: Utility Token
+  •	Blockchain: Solana
+  •	Tiêu chuẩn Token: SPL
+  •	Đơn vị thay thế: Lamport (1 SOL = 2^34 Lamport) – giống với sts của BTC
+  •	Block time – Thời gian để thực hiện 1 khối: 400ms
+  •	Thời gian giao dịch trung bình: 50,000 – 65,000 TPS
+  •	Thuật toán đồng thuận: POS & POH
+  •	Tổng cung tối đa: 1,000,000,000 SOL
+  •	Tổng cung ban đầu: 500.000.000 SOL
+
+  Solana là một trong những đối thủ mới nhất tham gia vào lĩnh vực ứng dụng phi tập trung, Solana tự hào về tốc độ cực nhanh và phí giao dịch cạnh tranh cao.
+  Solana là một nền tảng smart contract dựa trên blockchain được thiết kế để tạo điều kiện thuận lợi cho việc phát triển các ứng dụng phi tập trung (dapps). Dự án được thành lập bởi Anatoly Yakovenko vào năm 2017, trong khi đồng coin gốc của nó SOL chính thức hoạt động ba năm sau đó vào tháng 3 năm 2020.
+  Dự án nhắm mục đích cạnh tranh với các nền tảng dapp hiện có như Ethereum và dự án này quảng cáo rằng blockchain của nó có thể xử lý tối đa 65.000 giao dịch mỗi giây (tps) với mức phí trung bình là 0.00025 đô la . 
+  Ngược lại, Ethereum chỉ có thể xử lý khoảng 30 tps với phí giao dịch trung bình là 5 đô la.
+  Solana đã ghi nhận sự tăng trưởng đáng kể về các dapps chạy trên nền tảng của mình kể từ khi ra mắt, với hơn 332 dapps hiện đang hoạt động. Tuy nhiên, Ethereum vẫn dẫn đầu trong lĩnh vực này với 2.841.
+  -tăng trưởng án tượng , mới ra mắt cuoi nam ngoái 
+  + tốc độ xử lý rất nhanh (transaction) 51k transaction /1 sgiay
+  + nhieu du an su dung
+  + Rust _ ngôn ngữ bậc thấp theit lap solana
+  + ethernum lt smart contract\
+  Rust=  NN bac cao + thap
+  + phí cực kỳ thấp với 1 transaction
+  + dang tro thanh 1 blockchain hoàn thiện
+
+  1. ĐIỀU GÌ LÀM CHO SOLANA TRỞ NÊN ĐỘC ĐÁO?
+  1.1. Cơ chế đồng thuận
+  Một điều khiến Solana trở nên khác biệt so với các đối thủ cạnh tranh là cách tiếp cận độc đáo của nó đối với quy trình xác thực các giao dịch. 
+  Đáng chú ý, Yakovenko đã hợp nhất một hệ thống để đánh dấu thời gian giao dịch sao cho các validators (máy tính xác minh giao dịch trên blockchain) đều có một cái quan điểm thống nhất về thứ tự các hoạt động mới được thực hiện trên blockchain.
+  Nói cách khác, hệ thống này về cơ bản là một loại cơ chế đồng thuận vì những người tham gia mạng có nhiệm vụ phân tích tính hợp lệ của các giao dịch và phải đồng ý về một sự kiện lịch sử duy nhất - đây là lý do tại sao toàn bộ khái niệm này được gọi là cơ chế đồng thuận bằng chứng lịch sử (PoH).
+  Theo Yakovenko, ông đã vay mượn khái niệm đã sinh ra timestamping (hệ thống dấu thời gian) của Solana từ thiết kế cơ sở dữ liệu tập trung của Google và Intel và sửa đổi lại hệ thống đó để nó phù hợp với kiến trúc phi tập trung.
+  Ngoài cơ chế này, Solana cũng triển khai giao thức proof of stake (PoS) - bằng chứng cổ phần.
+  Lưu ý rằng các blockchains không bị chi phối bởi một thực thể duy nhất. Thay vào đó, người dùng phải giữ vai trò của họ trong việc bảo mật và duy trì mạng. Điều này đặc biệt cần thiết khi xác thực giao dịch. 
+  Đương nhiên, một blockchain yêu cầu người dùng phải đảm bảo rằng tất cả các giao dịch được thực hiện trên mạng đều hợp lệ. Về bản chất, người dùng phải đảm nhận vai trò của trình xác nhận.
+  Tuy nhiên, các giao thức blockchain không chỉ chọn người dùng một cách bừa bãi cho dù họ có khả năng hay không. Thay vào đó, tất cả các blockchain đều để người dùng chứng minh năng lực trở thành validators bằng cách đáp ứng các yêu cầu nhất định. 
+  Ví dụ: blockchain Bitcoin muốn người dùng đầu tư vào thiết bị khai thác và liên tục thực hiện các phép tính băm.
+  Đối với các blockchain như Cardano, Polkadot và Solana, người dùng trở thành network validator bằng cách stake - đặt cọc hay khóa các tài sản tiền điện tử.
+  Sau đó, giao thức chỉ huy cơ chế đồng thuận này sẽ chọn ngẫu nhiên một người đã tham gia stake và cấp cho người đó quyền đề xuất và thêm một tập hợp các giao dịch đã xác nhận mới vào blockchain. Giao thức quản lý toàn bộ quá trình này được gọi là cơ chế đồng thuận PoS.
+  1.2. Xử lý giao dịch
+  Bằng cách kết hợp các giao thức đồng thuận PoH và PoS, Solana đã đạt được tốc độ giao dịch chưa từng có mà không cần triển khai các sản phẩm layer 2 như các blockchain khác. 
+  Điều này có nghĩa là hệ sinh thái Solana chỉ dựa vào một chuỗi duy nhất. Đây được gọi là “sharding” và là một tính năng dự kiến sẽ ra mắt trong Ethereum trong quá trình nâng cấp 2.0.
+  Polkadot và Zilliqa là những ví dụ khác về nền tảng dapp cũng tận dụng sharding để cải thiện khả năng xử lý giao dịch của họ (còn được gọi là thông lượng giao dịch).
+  Cơ sở hạ tầng blockchain đơn lẻ của Solana tự hào có block time (thời gian xử lý các khối) cực kỳ nhanh, một khối mới được tạo cứ sau 400 mili giây. Để so sánh, đây là danh sách block time của các nền tảng dapps hàng đầu khác:
+  Ethereum: 13 giây
+  Cardano: 20 giây
+  Binnace smart chain : 3 giây
+  Avalanche: 1,7 giây
+  Polygon: 2,2 giây
+  Polkadot: 7 giây
+  Zilliqa: 45 giây
+  2. SOLANA CÓ NHỮNG TÍNH NĂNG NÀO?
+  2.1. Cơ chế đồng thuận Tower (BFT)
+  Các giao thức Tower BFT củng cố cơ chế đồng thuận PoH trong đó các validators truy cập vào một nguồn thời gian toàn cầu duy nhất. Với điều này, mạng có thể tận dụng đồng hồ được đồng bộ hóa và loại bỏ 1 cách hiệu quả việc phải tính toán và lưu trữ dấu thời gian của các giao dịch trong quá khứ trên blockchain. 
+  Ngược lại, các blockchains khác cho phép Validators chọn các giao dịch chưa được xác nhận một cách ngẫu nhiên - bất kể thứ tự mà chúng được thực hiện - và tải chúng tuần tự trên blockchain. Do cách tiếp cận này, các blockchain phải tính toán các timestamp như một phần được yêu cầu để thêm các giao dịch mới vào blockchain. 
+  Đối với Solana, tính khả dụng của sự đồng thuận PoH và Tower giúp loại bỏ việc trình xác thực cần phải xử lý timestamp, do đó tạo thêm không gian để tập trung vào các khía cạnh khác của quy trình xác thực giao dịch.
+  2.2. Gulstream
+  Solana sử dụng một hệ thống có tên là Gulf Stream để loại vấn đề về mempool. Hãy tưởng tượng mempool như một khu vực chờ đợi cho các giao dịch chưa được xác nhận. Đây là nơi các validators chọn các giao dịch và sau đó thêm chúng vào blockchain. 
+  Đối với Solana, các giao dịch được chuyển tiếp đến validators thậm chí trước khi các khối giao dịch mới được thêm. Với điều này, blockchain Solana đảm bảo rằng nó không có danh sách chờ của các giao dịch chưa được xác nhận.
+  2.3. Sealevel
+  Solana khuếch đại khả năng tính toán của blockchain bằng cách cho phép các smart contract chạy song song. Công nghệ này, được gọi là “Sealevel ”, mở rộng khả năng mở rộng của Solana để nhiều smart contract có thể chạy đồng thời mà không ảnh hưởng xấu đến tốc độ của blockchain.
+  2.4. Wormhole
+  Tính năng wormhole của Solana giới thiệu một kênh cầu nối không tín nhiệm giữa Solana, Ethereum, Binance Smart Chain và blockchain của Terra. Điều đó cho phép người dùng chuyển liên tục các token (fungible and non-fungible (có thể thay thế và không thể thay thế)) được tạo ra trong các hệ sinh thái Solana giữa các hệ sinh thái khác, cũng như cho phép các dapp không phải dapp gốc chia sẻ những thứ như dữ liệu oracle và liquidity (tính thanh khoản).
+  3. TẠI SAO SOLANA LẠI NHẤN MẠNH ĐẾN TỐC ĐỘ?
+  Giống như Ethereum, Solana hỗ trợ các smart contract - đây là các chương trình máy tính tự thực hiện các chức năng nhất định khi đáp ứng các điều kiện được xác định trước. Do đó, các nhà phát triển có thể khởi chạy và vận hành các ứng dụng blockchain của họ trên Solana.
+  Và như chúng ta đã chứng kiến trong hệ sinh thái Ethereum, thông lượng giao dịch cao luôn là một trong những yêu cầu cốt lõi, đặc biệt là khi các ứng dụng blockchain có liên quan. Đây là lý do tại sao hệ sinh thái Ethereum đang trải qua một đợt nâng cấp lớn. Do đó, nhóm phát triển Solana đã luôn tìm cách để tối ưu hóa đầu ra blockchain của mình.
+  Solana hướng đến tổ chức một thị trường tài chính phi tập trung (DeFi) đang phát triển mạnh và đóng góp tích cực vào lĩnh vực NFT đang bùng nổ. Một trong những bộ sưu tập NFT lớn đầu tiên ra mắt từ blockchain của Solana là Degenerate Ape Academy, nó đã bán hết trong tám phút với tổng khối lượng giao dịch kỷ lục 69 triệu đô la.
+  4. TOKEN SOL
+  Như đã đề cập trên đây, SOL là đồng coin gốc của blockchain Solana và hiện được xếp hạng trong số 10 loại tiền điện tử hàng đầu theo vốn hóa thị trường.    Tại thời điểm viết bài, đồng coin này có tổng nguồn cung là 503.273.124 SOL và vốn hóa thị trường 42 tỷ đô la.
+  SOL hoạt động giống như một utility token (token tiện ích) để thanh toán phí giao dịch, tương tự như gas của Ethereum và cũng là tiền tệ cơ sở cho nền kinh tế stake của Solana. Về bản chất, bạn sẽ phải đặt cược SOL để trở thành validators hoặc kiếm phần thưởng từ việc stake trên Solana.
+  Tuy nhiên, lưu ý rằng SOL không phải là tài sản kỹ thuật số duy nhất có thể truy cập được trong hệ sinh thái Solana. Giống như Ethereum, Solana là một blockchain đa tài sản, nơi các ứng dụng blockchain riêng lẻ hoạt động trên mạng có thể phát hành token một cách độc lập.
+  ------
+
+
 
