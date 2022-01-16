@@ -1,0 +1,50 @@
+#[derive(Debug)]
+#[derive(Encode, Decode, Clone, Default, RuntimeDebug)]
+//  tổng hơp kiểu Dl trong 1 obj ( giống oop)
+struct Member {
+        username : String,
+        email : String,
+        age : u64,
+        active :bool,
+        adddresss : String, // nếu in ra 1 COmpile sẽ cảnh báo rác (ko cần đến)
+}
+fn main() {
+    //tạo 1 biieens  để  nhập vào thông tin member
+    let mut member1 = Member{ // mut đc thêm vào để biến 1 biến thành mutable (có thể thay đổi)
+        username :String :: from("TranTHiLiSa"),
+        email :String :: from("trannhi@gmail.love"),
+        age :28,
+        active :true,
+        adddresss :String :: from("HDUONG,VN"),
+    };
+    let name  = member1.username;
+    println!("Name = {}",name); 
+    member1.username = String :: from("Nguyen Liathia");//nếu giữ nguyên  biến mặc dunhj nó là imuutabile\ , theem mut vào trc
+    println!("menber1 username is {}",member1.username);
+    //tạo tk Member 2
+    let _member2 = create_new_member(String:: from("LLY"),
+                                    String:: from("doandd"),
+                                    30,
+                                    String :: from("VN")
+    );
+    println!("member2 = {:#?}",_member2);//:#? in ra tất cả ,vì nó ko bt sẽ in ra cái j trc ,trình debug #[derive(Debug)]
+    //Cách 2
+    let _member3 = Member{
+        username :String :: from("ThânLYZio"),
+        .._member2 //lấy toàn bộ tt member 2 chỉ thay đổi dự liệu nào đó member 2 thôi
+    };
+    println!("member3 = {:#?}",_member3);
+    
+ //aborting due to previous error hủy bỏ do lỗi trước đó
+}
+fn create_new_member(username :String ,email :String,age: u64,adddresss : String) -> Member{
+    //điền du lieu can add vao
+    Member {
+        
+        username :username,
+        email :email,
+        age:age,
+        active :true,
+        adddresss :adddresss,
+    }
+}
