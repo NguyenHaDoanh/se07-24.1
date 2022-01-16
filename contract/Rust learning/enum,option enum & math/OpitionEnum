@@ -1,0 +1,27 @@
+//Option enum
+fn main() {
+
+    //enum Option<T> { //kiểu dự liệu là T , Some có 1 gt nào đo
+        //khi tạo ra 1 enum function , tạo ra 1 enum Option<T>,nếu T  = Some thì sẽ thực hiên điều nới tk Some sẽ làm
+        //nếu some = 5 thì ms + thêm 5 , ko thì +4 th ví dụ thế
+    //    Some(T),
+    //    None,  
+    //}
+    //let _number  =Some(5);
+    //let _string = Some("a String");
+    //let _nonenumber: Option<i32> = None;
+    let _number :i32 =5;
+    //let _number :i32 =Some(5);
+    let _string : Option<i32> = Some(5);
+    let sum : i32 = _number+_string.unwrap_or(0);// nếu ko co gt thì default , 
+    println!("sum  = {}",sum); //some vẫn có gtri
+
+    let _number1 :i32 =5;
+    //let _number :i32 =Some(5);
+    let _string1 : Option<i32> = None;
+    let sum1 : i32 = _number1+_string1.unwrap_or(0);
+    println!("sum1  = {}",sum1); 
+    // some đã ko còn giá trị là 5 nữa , 5+0 = 05
+    
+
+}
