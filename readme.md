@@ -6,10 +6,10 @@
 
 
 1. [Blockchain là gì ?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Blockchain)
-2. [Blockchain dùng để làm gì ?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Use/%E1%BB%A8ng%20d%E1%BB%A5ng)
-3. [Công nghệ Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/tree/main/Tech)
-4. [Hệ thống Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/System/H%E1%BB%87%20th%E1%BB%91ng)
-5. [Cấu trúc Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Structure/C%E1%BA%A5u%20tr%C3%BAc)
+2. [Blockchain dùng để làm gì ?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Use)
+3. [Công nghệ Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Tech)
+4. [Hệ thống Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/System)
+5. [Cấu trúc Blockchain](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Structure)
        ![image](https://user-images.githubusercontent.com/92654803/138794918-23ca0a04-8ee0-4eaa-9325-6b47699783d6.png)
 6. [Công nghệ Blockchain hoạt động như thế nào?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Operation)
       ![image](https://user-images.githubusercontent.com/92654803/138794853-808260b1-f07c-4699-b6a3-d7e203af86cc.png)
