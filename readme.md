@@ -1,5 +1,7 @@
 # Mục tiêu và Mục đích
-       Tìm hiểu về công nghệ Blockchain, xây dựng app kết nối
+
+  Tìm hiểu về công nghệ Blockchain, xây dựng app kết nối
+       
 #  Tổng quan về Blockchain
 
 
