@@ -27,20 +27,20 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
 # Vai trò ứng dụng 
 |Tên|Vai trò|
 |---|-------|
-|Người donate|Người sở hữu một tài sản muốn donate cho 1 người nào đó.|
+|Người donate|Người sở hữu một tài sản muốn donate cho 1 người nào đó|
 |Người nhận |Người nhận tiền donate từ những người khác|
 # Trạng thái
 |Tên|Sự miêu tả|
 |---|----------|
-|Tích cực(Active)|Cho biết rằng một tài sản có sẵn để mua.|
-|Phiếu mua đã đặt(Offer Placed )|Cho biết ý định mua của người mua.|
-|Chờ kiểm tra(Pending Inspection)|Cho biết yêu cầu của người mua đối với Người kiểm tra để kiểm tra tài sản đang được xem xét.|
-|Đã kiêm tra(Inspected)|Cho biết sự chấp thuận của Thanh tra để mua tài sản đang được xem xét.|
-|Đã kiểm định(Appraised )|Cho biết sự chấp thuận của Người kiểm định để mua tài sản đang được xem xét. |
-|Chấp nhận không bắt buộc(Notional Acceptance )|Cho biết cả Người kiểm tra và Người kiểm định đều chấp thuận mua tài sản đang xem xét. |
-|Người bán được chấp nhận(Seller Accepted)|Cho biết sự chấp thuận của chủ sở hữu để chấp nhận đề nghị do người mua đưa ra. |
-|Người mua được chấp nhận(Buyer Accepted) |Cho biết sự chấp thuận của người mua đối với sự chấp thuận của chủ sở hữu. |
-|Đã chấp nhận(Accepted)|Cho biết rằng cả người mua và người bán đã đồng ý với việc chuyển giao tài sản đang được xem xét. |
-|Đã chấm dứt(Terminated)|Cho biết chủ sở hữu không chấp thuận tiếp tục bán tài sản đang được xem xét. |
+|Tích cực (Active)|Cho biết rằng một tài sản có sẵn để mua|
+|Phiếu mua đã đặt (Offer Placed )|Cho biết ý định mua của người mua|
+|Chờ kiểm tra (Pending Inspection)|Cho biết yêu cầu của người mua đối với Người kiểm tra để kiểm tra tài sản đang được xem xét|
+|Đã kiêm tra (Inspected)|Cho biết sự chấp thuận của Thanh tra để mua tài sản đang được xem xét|
+|Đã kiểm định (Appraised )|Cho biết sự chấp thuận của Người kiểm định để mua tài sản đang được xem xét|
+|Chấp nhận không bắt buộc (Notional Acceptance )|Cho biết cả Người kiểm tra và Người kiểm định đều chấp thuận mua tài sản đang xem xét|
+|Người bán được chấp nhận (Seller Accepted)|Cho biết sự chấp thuận của chủ sở hữu để chấp nhận đề nghị do người mua đưa ra|
+|Người mua được chấp nhận (Buyer Accepted) |Cho biết sự chấp thuận của người mua đối với sự chấp thuận của chủ sở hữu|
+|Đã chấp nhận (Accepted)|Cho biết rằng cả người mua và người bán đã đồng ý với việc chuyển giao tài sản đang được xem xét|
+|Đã chấm dứt (Terminated)|Cho biết chủ sở hữu không chấp thuận tiếp tục bán tài sản đang được xem xét|
 # Chi tiết quy trình làm việc
   
