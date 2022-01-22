@@ -1,8 +1,6 @@
-#  ![objective](https://user-images.githubusercontent.com/86102398/139563263-951e4ef6-94ac-4ddd-b3e1-fc31e35bdb4c.png) Mục tiêu và Mục đích
-# ![1493289_settings_cog_gear_options_preferences_icon](https://user-images.githubusercontent.com/86102398/139563205-fe55f05f-39ab-4a83-8b9f-666973bb72a9.png) Kiến trúc hệ thống
-# ![ux](https://user-images.githubusercontent.com/86102398/139563279-bea016af-e7e8-4ad1-8d21-5b66dfcfcba6.png) Một số thiết kế giao diện
-
-# ![](https://user-images.githubusercontent.com/92350565/138580656-744676a8-a68d-40c4-aae6-823a798fcc3b.PNG) Tổng quan về Blockchain
+# Mục tiêu và Mục đích
+       Tìm hiểu về công nghệ Blockchain, xây dựng app kết nối
+#  Tổng quan về Blockchain
 
 
 1. [Blockchain là gì ?](https://github.com/NguyenHaDoanh/se07-24.1/blob/main/Definition/Blockchain)
