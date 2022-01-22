@@ -2,13 +2,13 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract Faucet {
-    uint256 public numOfFunders;
+    uint256 public numOfFunders; // không cần quản lý bộ nhớ , lấy ra số người donate
     mapping(uint256 => address) public lutFunders;
     mapping(address => bool) public funders;
 
     receive() external payable {}
 
-    // Addfunds, Withdraw, addressIndex, getFunfers
+    //  tạo các chức năng Addfunds, Withdraw, addressIndex, getFunfers
     function addFunds() external payable {
         address funder = msg.sender;
 
