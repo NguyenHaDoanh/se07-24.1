@@ -1,8 +1,8 @@
 
-import './App.css';
-import Web3 from "web3";
-import { useCallback,useState,useEffect } from 'react';
 import detectEthereumProvider from "@metamask/detect-provider";
+import { useCallback, useEffect, useState } from 'react';
+import Web3 from "web3";
+import './App.css';
 import { loadContract } from "./utils/load-contract";
 
 function App() {
@@ -96,8 +96,21 @@ web3Api.web3 && getAccount()&& reloadEffect()
 
 
 
+  const handleDonate = () => {
+    if (account) {
+      addFunds();
+    } else {
+      web3Api.provider.request({ method:"eth_requestAccounts"});
+    }
+  }
 
-
+  const handleWithdraw = () => {
+    if (account) {
+      withdraw();
+    } else {
+      web3Api.provider.request({ method:"eth_requestAccounts"});
+    }
+  }
 
 
 
@@ -105,35 +118,34 @@ web3Api.web3 && getAccount()&& reloadEffect()
 
 
   return (
-   <div className="faucet-wrapper">
-     <div className="faucet">
-       <div className="balance-view is-size-2">
-         Current Balance: <strong>{balance}</strong> ETH
+     <div className="faucet-wrapper">
+       <div className="faucet">
+         <div className="balance-view is-size-2">
+           Current Balance: <strong>{balance}</strong> ETH
+         </div>
+         <button className="button is-primary mr-5"
+         onClick={handleDonate}
+         >Donate</button>
+         <button className="button is-danger mr-5"
+         onClick={handleWithdraw}
+         >Withdraw</button>
+         <button className="button is-link "
+         onClick = {() =>
+        web3Api.provider.request({ method:"eth_requestAccounts"})
+      }
+         >
+           Connect Wallets
+           </button>
+         <span>
+           <p>
+            <strong>Accounts Address:</strong>
+            {
+               account ? account : " Accounts Denined"
+            }
+           </p>
+         </span>
        </div>
-       <button className="button is-primary mr-5"
-       onClick={addFunds}
-       >Donate</button>
-       <button className="button is-danger mr-5"
-       onClick={withdraw}
-       >Withdraw</button>
-       <button className="button is-link "
-       onClick = {() =>
-      web3Api.provider.request({ method:"eth_requestAccounts"})
-    }
-
-       >
-         Connect Wallets
-         </button>
-       <span>
-         <p>
-          <strong>Accounts Address:</strong> 
-          {
-             account ? account : " Accounts Denined"
-          }
-         </p>
-       </span>
      </div>
-   </div>
   );
 }
 
