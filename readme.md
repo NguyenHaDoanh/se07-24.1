@@ -27,37 +27,35 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
 
 # Bắt đầu với việc tạo 1 React App
 
-Dự án này đã được khởi động bằng [Create React App](https://github.com/facebook/create-react-app).
+Dự án này đã được khởi động bằng[Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Tập lệnh có sẵn
 
-In the project directory, you can run:
+Trong thư mục dự án , có thể khởi chạy:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Chạy ứng dụng ở chế độ nhà phát triển.\
+Mở [http://localhost:3000](http://localhost:3000) để xem ứng dụng trên trình duyệt.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Trang sẽ tải lại khi đã thực hiện các thay đổi.\
+Lỗi cũng sẽ xuất hiện trên cửa sổ.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Khởi chạy người chạy thử nghiệm trong chế độ đồng hồ tương tác.\
+Truy cập [running tests](https://facebook.github.io/create-react-app/docs/running-tests) để biết thêm thông tin.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Xây dựng ứng dụng để sản xuất vào folder `build`.\
+Kết hợp chính xác React trong chế độ sản xuất và tối ưu hóa bản dựng để có hiệu suất tốt nhất.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bản dựng được rút gọn và tên tệp bao gồm các hàm băm.\
+Ứng dụng đã sẵn sàng để triển khai!
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Lưu ý: đây là thao tác một chiều. Một khi đã `` đẩy ra ''thì không thể quay lại!**
 
   
