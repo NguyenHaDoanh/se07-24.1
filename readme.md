@@ -25,9 +25,9 @@ Hợp đồng thông minh chuyển tài sản bao gồm kịch bản mua và bá
 ![image](https://user-images.githubusercontent.com/86102398/138625413-45b50ebf-0624-4e74-b9f7-c432f29acedb.png)
 Có bốn nhân vật trong hợp đồng demo này - người bán với tư cách là người khởi xướng và ba nhân vật khác (người mua, người thẩm định và người kiểm tra) với tư cách là người tham gia. Như đã chỉ ra trong hình trên, tại một số giai đoạn nhất định trong hợp đồng, có nhiều hành động khác nhau mà người tham gia có thể thực hiện. Logic được viết trong hợp đồng thông minh sẽ sửa đổi trạng thái cho phù hợp dựa trên các hành động được thực hiện. 
 
-# Getting Started with Create React App
+# Bắt đầu với việc tạo 1 React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dự án này đã được khởi động bằng [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
