@@ -26,6 +26,7 @@ Hợp đồng thông minh chuyển tài sản bao gồm kịch bản mua và bá
 Có bốn nhân vật trong hợp đồng demo này - người bán với tư cách là người khởi xướng và ba nhân vật khác (người mua, người thẩm định và người kiểm tra) với tư cách là người tham gia. Như đã chỉ ra trong hình trên, tại một số giai đoạn nhất định trong hợp đồng, có nhiều hành động khác nhau mà người tham gia có thể thực hiện. Logic được viết trong hợp đồng thông minh sẽ sửa đổi trạng thái cho phù hợp dựa trên các hành động được thực hiện. 
 
 # App Marketplace
+Đây là một thị trường chạy trên blockchain. Cho phép mọi người liệt kê các mặt hàng để bán và cũng cho phép mọi người mua chúng trên trang web bằng tiền điện tử.
 
    #### Đảm bảo tải môi trường đầy đủ 
    #### Đã có tài khoản Metamask
