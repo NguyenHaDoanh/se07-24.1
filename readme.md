@@ -27,6 +27,7 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
 
 # App Marketplace
 Đây là một thị trường chạy trên blockchain. Cho phép mọi người liệt kê các mặt hàng để bán và cũng cho phép mọi người mua chúng trên trang web bằng tiền điện tử.
+Khi nào ai đó mua hàng, họ ngay lập tức trở thành chủ sở hữu.
 
    #### Đảm bảo tải môi trường đầy đủ 
    #### Đã có tài khoản Metamask
@@ -36,8 +37,8 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
 ### Bắt đầu với việc tạo 1 React App
  Dự án này được khởi động bằng[Create React App](https://github.com/facebook/create-react-app).
  ### `npx create-react-app "name"`
-   Khởi tạo liên kết truffle và Ganache
-   ### `truffle init`
+ Khởi tạo liên kết truffle và Ganache
+ ### `truffle init`
    
 ## Tập lệnh có sẵn
 
@@ -77,7 +78,6 @@ Bản dựng được rút gọn và tên tệp bao gồm các hàm băm.\
 
 ### `npm run eject`
 
-**Lưu ý: đây là thao tác một chiều. Một khi đã `` đẩy ra ''thì không thể quay lại!**
 
 
   
