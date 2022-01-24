@@ -21,7 +21,7 @@ class App extends Component {
       window.web3 = new Web3(window.web3.currentProvider)
     }
     else {
-      window.alert('Non-Ethereum browser detected. You should consider trying MetaMask!')
+      window.alert('Bạn nên cân nhắc dùng thử MetaMask để tiếp tục!')
     }
   }
 
@@ -82,19 +82,22 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-      <Navbar account={this.state.account} />
-        <div className="container-fluid mt-5">
-          <div className = "row">
-            <main role ="main" className = "col-lg-12 d-fled">
-              { this.state.loading ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>: <Main products = {this.state.products} 
-                                    createProduct={this.createProduct}
-                                    purchaseProduct={this.purchaseProduct} />
-  }
-            </main>
+      <nav className=" navbar-dark bg-white flex-md-nowrap p-0 shadow">
+        <div>
+
+        <Navbar account={this.state.account} />
+          <div className="container-fluid mt-5">
+            <div className = "row">
+              <main role ="main" className = "col-lg-12 d-fled">
+                { this.state.loading ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>: <Main products = {this.state.products} 
+                                      createProduct={this.createProduct}
+                                      purchaseProduct={this.purchaseProduct} />
+    }
+              </main>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
     );
   }
 }
