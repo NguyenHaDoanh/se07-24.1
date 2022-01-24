@@ -32,10 +32,10 @@ Có bốn nhân vật trong hợp đồng demo này - người bán với tư c�
    #### [Cài đặt node js](nodejs.org).
    #### Cài đặt truffle,Ganache
    #### `npm install truffle -g`
-## Bắt đầu với việc tạo 1 React App
-## Dự án này được khởi động bằng[Create React App](https://github.com/facebook/create-react-app).
+### Bắt đầu với việc tạo 1 React App
+ Dự án này được khởi động bằng[Create React App](https://github.com/facebook/create-react-app).
  ### `npx create-react-app "name"`
-   ### Khởi tạo liên kết truffle và Ganache
+   Khởi tạo liên kết truffle và Ganache
    ### `truffle init`
    
 ## Tập lệnh có sẵn
